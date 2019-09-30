@@ -108,4 +108,5 @@ typings/
 /dist/
 /report/
 /build
-/.czrc
+/commitlint.config.js
+/lintush-config.js
