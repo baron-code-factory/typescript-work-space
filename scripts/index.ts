@@ -5,6 +5,7 @@ type Custom = {
   tags: [Tag, ...Tag[]];
 };
 
+const target = '{src,configs,scripts}';
 export const scripts = new Set<EnchantScriptsP<Custom>>();
 scripts.add({
   script: ['npx eslint configs/.eslintrc.js  --fix --no-ignore'],
@@ -18,7 +19,7 @@ scripts.add({
   },
 });
 scripts.add({
-  script: ['npx eslint {src,configs,scripts,types}/**/*.{ts,tsx,js,json} --fix'],
+  script: [`npx eslint ${target}/**/*.{ts,tsx,js,json} --fix`],
   ...betterOption,
   opt: {
     name: 'eslint -> code',
@@ -29,7 +30,7 @@ scripts.add({
   },
 });
 scripts.add({
-  script: ['npx jscpd src -c .jscpd.json'],
+  script: [`npx jscpd ${target} -c .jscpd.json --reporters consoleFull`],
   ...betterOption,
   opt: {
     name: 'jscpd',
