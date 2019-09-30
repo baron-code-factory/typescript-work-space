@@ -12,4 +12,5 @@ ln -s configs/tsconfig/tsconfig.json .
 ln -s configs/.jscpd.json .
 ln -s configs/webpack/webpack.config.ts .
 ln -s configs/wallaby.js .
-ln -s configs/.czrc .
+ln -s configs/commitlint.config.js .
+ln -s configs/lintush-config.js .
