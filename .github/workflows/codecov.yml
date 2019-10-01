@@ -1,27 +1,23 @@
 name: codecov
-
-on: [push]
-
+on:
+  - push
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v1
-
-    - name: init
-      run:  |
-        bash init.sh
-        npm i
-      env:
-        CI: true
-    
-    - name: npm test
-    - uses: codecov/codecov-action@v1.0.2
-      with:
-        token: ${{secrets.CODECOV_TOKEN}}
-      run:
-        npx jest --coverage && npx codecov
-      env:
-        CI: true
+      -
+        uses: actions/checkout@v1
+      -
+        name: init
+        run: "bash init.sh\nnpm i\n"
+        env:
+          CI: true
+      -
+        name: 'npm test'
+      -
+        uses: codecov/codecov-action@v1.0.2
+        with:
+          token: '${{secrets.CODECOV_TOKEN}}'
+        run: 'npx jest --coverage && npx codecov'
+        env:
+          CI: true
