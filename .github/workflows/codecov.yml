@@ -9,10 +9,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - uses: codecov/codecov-action@v1.0.2
-      with:
-        token: ${{secrets.CODECOV_TOKEN}} #required
-    
+
     - name: init
       run:  |
         bash init.sh
@@ -21,6 +18,9 @@ jobs:
         CI: true
     
     - name: npm test
+    - uses: codecov/codecov-action@v1.0.2
+      with:
+        token: ${{secrets.CODECOV_TOKEN}}
       run:
         npx jest --coverage && npx codecov
       env:
