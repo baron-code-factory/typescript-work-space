@@ -22,6 +22,6 @@ jobs:
     
     - name: npm test
       run:
-        npx jest --coverage
+        npx jest --coverage && codecov
       env:
         CI: true
