@@ -30,7 +30,7 @@ scripts.add({
   },
 });
 scripts.add({
-  script: [`npx jscpd ${target} -c .jscpd.json --reporters consoleFull`],
+  script: [`npx jscpd ${target} -c .jscpd.json`],
   ...betterOption,
   opt: {
     name: 'jscpd',

@@ -2,10 +2,17 @@
 
 | Badge |  |
 |:--------|:------|
-|![GitHub](https://img.shields.io/badge/(%E3%81%A3%E2%97%94%E2%97%A1%E2%97%94)%E3%81%A3%20%E2%99%A5%20GitHub%20%E2%99%A5-%F0%9F%8D%BA%F0%9F%8D%BA%F0%9F%8D%BA-brightgreen?style=for-the-badge&logo=appveyor, 'GitHub')  |𝙂𝙞𝙩𝙃𝙪𝙗🍺|
 |[![Actions Status](https://github.com/baron-template/typescript/workflows/Node%20CI/badge.svg)](https://github.com/baron-template/typescript/workflows/Node%20CI/badge.svg)|Ａｃｔｉｏｎｓ|
 |![license](https://img.shields.io/github/license/baron-template/typescript?style=for-the-badge&logo=appveyor, 'license')|ᗰIT|
+|[![Maintainability](https://api.codeclimate.com/v1/badges/e287e6b01ca920710fbb/maintainability)](https://codeclimate.com/github/baron-template/typescript/maintainability)|𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦|
+|[![Test Coverage](https://api.codeclimate.com/v1/badges/e287e6b01ca920710fbb/test_coverage)](https://codeclimate.com/github/baron-template/typescript/test_coverage)|𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦|
+|![GitHub](https://img.shields.io/badge/(%E3%81%A3%E2%97%94%E2%97%A1%E2%97%94)%E3%81%A3%20%E2%99%A5%20GitHub%20%E2%99%A5-%F0%9F%8D%BA%F0%9F%8D%BA%F0%9F%8D%BA-brightgreen?style=for-the-badge&logo=appveyor, 'GitHub')  |𝙂𝙞𝙩𝙃𝙪𝙗🍺|
 |![enchant-script](https://nodei.co/npm/enchant-script.png)|EᑎᑕᕼᗩᑎT-ᔕᑕᖇIᑭT|
+
+## codeclimate
+https://codeclimate.com/github/baron-template/typescript
+
+---
 
 ## isntall
 - nodenv (anyenv)
@@ -40,6 +47,9 @@ echo $ARE_YOU_READY
 console.log(process.env.ARE_YOU_READY); // ok
 ```
 
+## 連携サービス
+- codeclimate
+- renovate
 
 ---
 
