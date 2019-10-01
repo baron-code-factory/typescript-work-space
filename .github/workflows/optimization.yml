@@ -1,4 +1,4 @@
-name: codecov
+name: optimization
 
 on: [push]
 
@@ -22,14 +22,9 @@ jobs:
         env:
           CI: true
 
-      - name: npm test
+      - name: npm optimization
         run: |
           npm i
-          npx jest --coverage
+          npm run optimization
         env:
           CI: true
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1.0.2
-        with:
-          token: ${{secrets.CODECOV_TOKEN}}
