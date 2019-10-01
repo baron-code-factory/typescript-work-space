@@ -1,23 +1,32 @@
-name: codecov
-on:
-  - push
+name: Node CI
+
+on: [push]
+
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
     steps:
-      -
-        uses: actions/checkout@v1
-      -
-        name: init
-        run: "bash init.sh\nnpm i\n"
-        env:
-          CI: true
-      -
-        name: 'npm test'
-      -
-        uses: codecov/codecov-action@v1.0.2
-        with:
-          token: '${{secrets.CODECOV_TOKEN}}'
-        run: 'npx jest --coverage && npx codecov'
-        env:
-          CI: true
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: init
+      run:
+        bash init.sh
+      env:
+        CI: true
+
+    - name: npm optimization
+      run: |
+        npm i
+        npx jest --coverage && npx codecov
+      env:
+        CI: true
