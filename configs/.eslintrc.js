@@ -1,3 +1,5 @@
+/* eslint-disable no-magic-numbers */
+
 // eslint-config-prettier
 // ESLintとprettierの処理で重複する項目について無効化してくれる
 
@@ -93,6 +95,21 @@ module.exports = {
 
     // console.log
     'no-console': 2,
+
+    // 1メソッドあたりの行数
+    'max-lines-per-function': ['error', 20],
+
+    // ネストの深さ
+    'max-depth': ['error', 3],
+
+    // 引数の数
+    'max-params': ['error', 3],
+
+    // コールバックの数
+    'max-nested-callbacks': ['error', 2],
+
+    // 変数の数
+    'max-statements': ['error', 7],
 
     '@typescript-eslint/no-explicit-any': 2,
   },
