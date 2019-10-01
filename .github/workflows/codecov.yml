@@ -27,6 +27,11 @@ jobs:
     - name: npm codecov
       run: |
         npm i
-        npx jest --coverage && npx codecov
+        npx jest --coverage
       env:
         CI: true
+
+    - name: Upload coverage to Codecov  
+      uses: codecov/codecov-action@v1.0.2
+      with:
+        token: ${{secrets.CODECOV_TOKEN}}
