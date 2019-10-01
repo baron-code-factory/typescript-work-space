@@ -1,1 +1,0 @@
-configs/lintush-config.js
