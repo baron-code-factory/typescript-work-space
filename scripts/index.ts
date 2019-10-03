@@ -76,7 +76,7 @@ scripts.add({
 });
 
 scripts.add({
-  script: ['npx typedoc src/ --exclude **/*.{spec,test}.ts --includeDeclarations --out build/docs'],
+  script: ['npx jest --coverage'],
   ...betterOption,
   opt: {
     name: 'put codecov',
