@@ -1,6 +1,6 @@
 import { EnchantScriptsP, betterOption } from 'enchant-script';
 
-type Tag = 'optimization' | 'doc' | 'codecov' | 'typedoc';
+type Tag = 'optimization';
 type Custom = {
   tags: [Tag, ...Tag[]];
 };
@@ -70,7 +70,7 @@ scripts.add({
     name: 'typedoc',
     description: 'typedocを出力',
     custom: {
-      tags: ['doc', 'typedoc', 'optimization'],
+      tags: ['optimization'],
     },
   },
 });
