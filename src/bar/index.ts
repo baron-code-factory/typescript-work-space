@@ -9,4 +9,6 @@
  *
  * @returns string
  */
-export const getBar = () => 'Bar';
+export function getBar() {
+  return 'Bar';
+}

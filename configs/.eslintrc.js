@@ -32,7 +32,7 @@ module.exports = {
 
     'prettier',
   ],
-  plugins: ['@typescript-eslint', 'jest', 'prettier'],
+  plugins: ['@typescript-eslint', 'jest', 'json', 'prettier'],
 
   settings: {
     'import/resolver': {

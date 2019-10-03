@@ -1,6 +1,7 @@
 import { EnchantScriptsP, betterOption } from 'enchant-script';
+import typedoc from 'typedoc.json';
 
-type Tag = 'optimization' | 'doc' | 'codecov';
+type Tag = 'optimization' | 'doc' | 'codecov' | 'typedoc';
 type Custom = {
   tags: [Tag, ...Tag[]];
 };
@@ -19,7 +20,7 @@ scripts.add({
   },
 });
 scripts.add({
-  script: [`npx eslint ${target}/**/*.{ts,tsx,js,json} --fix`],
+  script: [`npx eslint "${target}/**/*.{ts,js,json}" --fix`],
   ...betterOption,
   opt: {
     name: 'eslint -> code',
@@ -30,7 +31,7 @@ scripts.add({
   },
 });
 scripts.add({
-  script: [`npx jscpd ${target} -c .jscpd.json`],
+  script: [`npx jscpd "${target}" -c .jscpd.json`],
   ...betterOption,
   opt: {
     name: 'jscpd',
@@ -64,13 +65,13 @@ scripts.add({
 });
 
 scripts.add({
-  script: ['npx typedoc src/ --exclude **/*.{spec,test}.ts --includeDeclarations --out build/docs'],
+  script: [`rm -rf "${typedoc.out}" &&  npx typedoc src`],
   ...betterOption,
   opt: {
     name: 'typedoc',
     description: 'typedocを出力',
     custom: {
-      tags: ['doc'],
+      tags: ['doc', 'typedoc'],
     },
   },
 });

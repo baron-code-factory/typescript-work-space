@@ -13,3 +13,4 @@ ln -s configs/.jscpd.json .
 ln -s configs/webpack/webpack.config.ts .
 ln -s configs/wallaby.js .
 ln -s configs/.czrc .
+ln -s configs/typedoc.json .

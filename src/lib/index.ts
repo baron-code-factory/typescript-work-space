@@ -1,3 +1,5 @@
 import path from 'path';
 
-export const getBaseName = () => path.basename('');
+export function getBaseName() {
+  return path.basename('');
+}

@@ -16,16 +16,22 @@
 - direnv
 - git-secrets
 
+---
+
 ## init
 ```bash
 bash init.sh
 ```
 
+---
+
+
 ## 確認すること
+
 ```bash
+# こんな感じになるか？
 npx ts-node -r tsconfig-paths/register scripts/testEnv
 
-# こんな感じになるか？
 ┌───────────────────────────┬──────────────┐
 │          (index)          │    Values    │
 ├───────────────────────────┼──────────────┤
@@ -36,23 +42,28 @@ npx ts-node -r tsconfig-paths/register scripts/testEnv
 └───────────────────────────┴──────────────┘
 ```
 
+---
+
 ## アカウント作成 や 連携
 - codeclimate
 - renovate
 
 ---
 
-## 方針
+## ビルドなど
+`webpack` & `babel` でやります
+
 - `babel-loader`で`TypeScript`をトランスパイルする。ので`ts-loader`は使用しない
 - 型チェックは、`tsc`でする
-
-## 用語
 
 ### webpack
 - webpack
     - ファイルバンドリング
 - webpack-cli
     - webpackをcli上で使用できるようにする。
+
+#### webpack.config.ts 化
+ts-node があれば tsもOK
 
 ### babel
 - @babel/core
@@ -69,8 +80,22 @@ TypeScriptの文法には既に含まれているけど、
 今はまだpreset-envには含まれていない文法も使えるようにしておく。
 preset-envに含まれる日が来たら、これらのプラグインは不要になるはず。
 
-## webpack.config.ts 化
-ts-node があれば tsもOK
+#### babel.config.ts 化
 
-## babel.config.ts 化
 まだないっぽい
+
+---
+
+## 開発の方針
+```ts
+// `function` 押しで
+// 理由は typedoc で出力した際にわかりやすいから
+
+// A
+const myFunc = () => 'my Naem'
+
+// B
+function myFunc() {
+    return 'my Naem'
+}
+```

@@ -109,3 +109,4 @@ typings/
 /report/
 /build
 /.czrc
+/typedoc.json
