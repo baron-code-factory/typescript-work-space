@@ -31,7 +31,7 @@ scripts.add({
   },
 });
 scripts.add({
-  script: [`npx jscpd "${target}" -c .jscpd.json`],
+  script: [`npx jscpd "${target}" --config .jscpd.json`],
   ...betterOption,
   opt: {
     name: 'jscpd',
