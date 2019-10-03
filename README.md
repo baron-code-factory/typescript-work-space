@@ -22,29 +22,21 @@ bash init.sh
 ```
 
 ## 確認すること
-
-node の version が nodenv の設定通りか？
 ```bash
-nodenv install
-nodenv rehash
+npx ts-node -r tsconfig-paths/register scripts/testEnv
 
-# 同じか確認
-cat .node-version
-node -v
+# こんな感じになるか？
+┌───────────────────────────┬──────────────┐
+│          (index)          │    Values    │
+├───────────────────────────┼──────────────┤
+│ process.env.ARE_YOU_READY │     'ok'     │
+│    echo $ARE_YOU_READY    │     'ok'     │
+│       .node-version       │  '11.10.1'   │
+│          node -v          │ 'v11.10.1\n' │
+└───────────────────────────┴──────────────┘
 ```
 
-direnv が 正常に動作するか？
-```bash
-direnv allow .
-echo $ARE_YOU_READY
-# ok が表示される
-```
-
-```ts
-console.log(process.env.ARE_YOU_READY); // ok
-```
-
-## 連携サービス
+## アカウント作成 や 連携
 - codeclimate
 - renovate
 
