@@ -25,6 +25,6 @@ jobs:
       - name: npm optimization
         run: |
           npm i
-          npm run optimization
+          npm run tryScript optimization
         env:
           CI: true

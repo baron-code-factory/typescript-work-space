@@ -1,6 +1,6 @@
 import { EnchantScriptsP, betterOption } from 'enchant-script';
 
-type Tag = 'optimization' | 'doc';
+type Tag = 'optimization' | 'doc' | 'codecov';
 type Custom = {
   tags: [Tag, ...Tag[]];
 };
@@ -71,6 +71,18 @@ scripts.add({
     description: 'typedocを出力',
     custom: {
       tags: ['doc'],
+    },
+  },
+});
+
+scripts.add({
+  script: ['npx typedoc src/ --exclude **/*.{spec,test}.ts --includeDeclarations --out build/docs'],
+  ...betterOption,
+  opt: {
+    name: 'put codecov',
+    description: 'codecov にカバレッジ出力 CI用',
+    custom: {
+      tags: ['codecov'],
     },
   },
 });

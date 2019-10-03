@@ -7,7 +7,7 @@ import {
 import { filterScript } from 'scripts/filterScript';
 
 const main = async () => {
-  const scripts = filterScript('optimization');
+  const scripts = filterScript(process.argv[2]);
 
   try {
     // const runInOrderR = await runInOrder(scripts);

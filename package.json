@@ -7,8 +7,8 @@
   "scripts": {
     "build:dev": "rm -rf dist && NODE_ENV=development webpack -r tsconfig-paths/register",
     "build:prod": "rm -rf dist && NODE_ENV=production webpack -r tsconfig-paths/register",
-    "optimization": "ts-node -r tsconfig-paths/register scripts/optimization",
-    "selectScript": "ts-node -r tsconfig-paths/register scripts/selectScript"
+    "selectScript": "ts-node -r tsconfig-paths/register scripts/selectScript",
+    "tryScript": "ts-node -r tsconfig-paths/register scripts/tryScript"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
