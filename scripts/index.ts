@@ -1,5 +1,4 @@
 import { EnchantScriptsP, betterOption } from 'enchant-script';
-import typedoc from 'typedoc.json';
 
 type Tag = 'optimization' | 'doc' | 'codecov' | 'typedoc';
 type Custom = {
@@ -65,7 +64,7 @@ scripts.add({
 });
 
 scripts.add({
-  script: [`rm -rf "${typedoc.out}" &&  npx typedoc src`],
+  script: [`npx typedoc src`],
   ...betterOption,
   opt: {
     name: 'typedoc',
