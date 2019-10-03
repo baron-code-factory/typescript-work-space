@@ -52,11 +52,11 @@ scripts.add({
   },
 });
 scripts.add({
-  script: ['npx jest'],
+  script: ['npx jest --coverage'],
   ...betterOption,
   opt: {
     name: 'test',
-    description: '単体テスト',
+    description: '単体テスト codecovとの連携があるので coverageを毎回出力 重くなったら CI時実行',
     custom: {
       tags: ['optimization'],
     },
@@ -71,18 +71,6 @@ scripts.add({
     description: 'typedocを出力',
     custom: {
       tags: ['doc'],
-    },
-  },
-});
-
-scripts.add({
-  script: ['npx jest --coverage'],
-  ...betterOption,
-  opt: {
-    name: 'put codecov',
-    description: 'codecov にカバレッジ出力 CI用',
-    custom: {
-      tags: ['codecov'],
     },
   },
 });
