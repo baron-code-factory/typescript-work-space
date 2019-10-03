@@ -76,6 +76,7 @@ ts-node があれば tsもOK
     - TSからJSへトランスパイル
 - @babel/plugin-proposal-class-properties
 - @babel/plugin-proposal-object-rest-spread
+
 TypeScriptの文法には既に含まれているけど、
 今はまだpreset-envには含まれていない文法も使えるようにしておく。
 preset-envに含まれる日が来たら、これらのプラグインは不要になるはず。
