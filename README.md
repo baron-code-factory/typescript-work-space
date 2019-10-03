@@ -44,12 +44,6 @@ npx ts-node -r tsconfig-paths/register scripts/testEnv
 
 ---
 
-## アカウント作成 や 連携
-- codeclimate
-- renovate
-
----
-
 ## ビルドなど
 `webpack` & `babel` でやります
 

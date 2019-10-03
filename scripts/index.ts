@@ -71,7 +71,7 @@ scripts.add({
     name: 'typedoc',
     description: 'typedocを出力',
     custom: {
-      tags: ['doc', 'typedoc'],
+      tags: ['doc', 'typedoc', 'optimization'],
     },
   },
 });
