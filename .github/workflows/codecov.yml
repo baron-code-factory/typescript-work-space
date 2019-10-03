@@ -26,6 +26,8 @@ jobs:
         run: |
           npm i
           npm run tryScript codecov
-        uses: codecov/codecov-action@v1.0.2
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-actio
         with:
           token: ${{secrets.CODECOV_TOKEN}}
