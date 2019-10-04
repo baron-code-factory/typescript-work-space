@@ -35,13 +35,18 @@ npm i
 ---
 
 ## アカウント作成 や 連携
-### codeclimate
+### Codeclimate
 
 ### Renovate
+
+### Codecov
 https://github.com/baron-template/typescript/settings/secrets  
+
 - `CODECOV_TOKEN` 追加
 
 ### Netlify
+https://github.com/baron-template/typescript/settings/secrets  
+
 - `NETLIFY_AUTH_TOKEN` 追加
 - `NETLIFY_SITE_ID` 追加
 
