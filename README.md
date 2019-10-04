@@ -2,7 +2,8 @@
 
 |  ᗷ𝐚ᗪgε | 𝒮𝑒𝓇𝓋𝒾𝒸𝑒 |
 |:--------|:------|
-|[![Actions](https://github.com/baron-template/typescript/workflows/Node%20CI/badge.svg)](https://github.com/baron-template/typescript/actions?workflow=Node+CI)|[Ａｃｔｉｏｎｓ](https://github.com/baron-template/typescript/actions)
+|[![Actions](https://github.com/baron-template/typescript/workflows/Node%20CI/badge.svg)](https://github.com/baron-template/typescript/actions?workflow=Node+CI)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbaron-template%2Ftypescript.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbaron-template%2Ftypescript?ref=badge_shield)
+|[Ａｃｔｉｏｎｓ](https://github.com/baron-template/typescript/actions)
 |[![License](https://img.shields.io/github/license/baron-template/typescript?style=for-the-badge&logo=appveyor)](https://github.com/baron-template/typescript/blob/master/LICENSE)|[ᗰIT](https://github.com/baron-template/typescript/blob/master/LICENSE)
 |[![Maintainability](https://api.codeclimate.com/v1/badges/e287e6b01ca920710fbb/maintainability)](https://codeclimate.com/github/baron-template/typescript/maintainability)|[𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-template/typescript)
 |[![GitHub](https://img.shields.io/badge/(%E3%81%A3%E2%97%94%E2%97%A1%E2%97%94)%E3%81%A3%20%E2%99%A5%20GitHub%20%E2%99%A5-%F0%9F%8D%BA%F0%9F%8D%BA%F0%9F%8D%BA-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/baronTommy)|[GιƚHυႦ](https://github.com/baronTommy)
@@ -121,3 +122,7 @@ function myFunc() {
     return 'my Naem'
 }
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbaron-template%2Ftypescript.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbaron-template%2Ftypescript?ref=badge_large)
