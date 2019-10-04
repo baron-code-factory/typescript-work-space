@@ -34,25 +34,6 @@ npm i
 
 ---
 
-## アカウント作成 や 連携
-### Codeclimate
-
-### Renovate
-
-### Codecov
-https://github.com/baron-template/typescript/settings/secrets  
-
-- `CODECOV_TOKEN` 追加
-
-### Netlify
-https://github.com/baron-template/typescript/settings/secrets  
-
-- `NETLIFY_AUTH_TOKEN` 追加
-- `NETLIFY_SITE_ID` 追加
-
-
----
-
 
 ## 確認すること
 
@@ -69,6 +50,24 @@ npx ts-node -r tsconfig-paths/register scripts/testEnv
 │          node -v          │ 'v11.10.1\n' │
 └───────────────────────────┴──────────────┘
 ```
+
+---
+
+## アカウント作成 や 連携
+### Codeclimate
+
+### Renovate
+
+### Codecov
+https://github.com/baron-template/typescript/settings/secrets  
+
+- `CODECOV_TOKEN` 追加
+
+### Netlify
+https://github.com/baron-template/typescript/settings/secrets  
+
+- `NETLIFY_AUTH_TOKEN` 追加
+- `NETLIFY_SITE_ID` 追加
 
 ---
 
