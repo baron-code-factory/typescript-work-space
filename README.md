@@ -8,7 +8,6 @@
 |[![GitHub](https://img.shields.io/badge/(%E3%81%A3%E2%97%94%E2%97%A1%E2%97%94)%E3%81%A3%20%E2%99%A5%20GitHub%20%E2%99%A5-%F0%9F%8D%BA%F0%9F%8D%BA%F0%9F%8D%BA-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/baronTommy)|[GιƚHυႦ](https://github.com/baronTommy)
 |[![codecov](https://codecov.io/gh/baron-template/typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/baron-template/typescript)|[ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-template/typescript)
 |[![Netlify Status](https://api.netlify.com/api/v1/badges/9ac9d26b-1886-4f56-9ae6-2fa77789c77e/deploy-status)](https://app.netlify.com/sites/naughty-mayer-acdfab/deploys)|[𝐓𝐲𝐩𝐞𝐃𝐨𝐜](https://naughty-mayer-acdfab.netlify.com/typedoc/)<br>[𝗷𝘀𝗰𝗽𝗱](https://naughty-mayer-acdfab.netlify.com/jscpd/jscpd-report.html)
-|[![enchant-script](https://nodei.co/npm/enchant-script.png)](https://www.npmjs.com/package/enchant-script)|[EᑎᑕᕼᗩᑎT-ᔕᑕᖇIᑭT](https://www.npmjs.com/package/enchant-script)
 
 
 ## Document
@@ -30,6 +29,7 @@
 ## init
 ```bash
 bash init.sh
+npm i
 ```
 
 ---
@@ -39,11 +39,11 @@ bash init.sh
 
 ### Renovate
 https://github.com/baron-template/typescript/settings/secrets  
-`CODECOV_TOKEN` 追加
+- `CODECOV_TOKEN` 追加
 
 ### Netlify
-`NETLIFY_AUTH_TOKEN` 追加
-`NETLIFY_SITE_ID` 追加
+- `NETLIFY_AUTH_TOKEN` 追加
+- `NETLIFY_SITE_ID` 追加
 
 
 ---
