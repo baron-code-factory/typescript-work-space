@@ -2,11 +2,11 @@
 
 |  ᗷ𝐚ᗪgε | 𝒮𝑒𝓇𝓋𝒾𝒸𝑒 |
 |:--------|:------|
-|[![Actions](https://github.com/baron-template/typescript/workflows/Node%20CI/badge.svg)](https://github.com/baron-template/typescript/actions?workflow=Node+CI)|[Ａｃｔｉｏｎｓ](https://github.com/baron-template/typescript/actions)
-|[![License](https://img.shields.io/github/license/baron-template/typescript?style=for-the-badge&logo=appveyor)](https://github.com/baron-template/typescript/blob/master/LICENSE)|[ᗰIT](https://github.com/baron-template/typescript/blob/master/LICENSE)
-|[![Maintainability](https://api.codeclimate.com/v1/badges/e287e6b01ca920710fbb/maintainability)](https://codeclimate.com/github/baron-template/typescript/maintainability)|[𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-template/typescript)
+|[![Actions](https://github.com/baron-code-factory/typescript-work-space/workflows/Node%20CI/badge.svg)](https://github.com/baron-code-factory/typescript-work-space/actions?workflow=Node+CI)|[Ａｃｔｉｏｎｓ](https://github.com/baron-code-factory/typescript-work-space/actions)
+|[![License](https://img.shields.io/github/license/baron-code-factory/typescript-work-space?style=for-the-badge&logo=appveyor)](https://github.com/baron-code-factory/typescript-work-space/blob/master/LICENSE)|[ᗰIT](https://github.com/baron-code-factory/typescript-work-space/blob/master/LICENSE)
+|[![Maintainability](https://api.codeclimate.com/v1/badges/e287e6b01ca920710fbb/maintainability)](https://codeclimate.com/github/baron-code-factory/typescript-work-space/maintainability)|[𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-code-factory/typescript-work-space)
 |[![GitHub](https://img.shields.io/badge/(%E3%81%A3%E2%97%94%E2%97%A1%E2%97%94)%E3%81%A3%20%E2%99%A5%20GitHub%20%E2%99%A5-%F0%9F%8D%BA%F0%9F%8D%BA%F0%9F%8D%BA-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/baronTommy)|[GιƚHυႦ](https://github.com/baronTommy)
-|[![codecov](https://codecov.io/gh/baron-template/typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/baron-template/typescript)|[ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-template/typescript)
+|[![codecov](https://codecov.io/gh/baron-code-factory/typescript-work-space/branch/master/graph/badge.svg)](https://codecov.io/gh/baron-code-factory/typescript-work-space)|[ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-code-factory/typescript-work-space)
 |[![Netlify Status](https://api.netlify.com/api/v1/badges/9ac9d26b-1886-4f56-9ae6-2fa77789c77e/deploy-status)](https://app.netlify.com/sites/naughty-mayer-acdfab/deploys)|[𝐓𝐲𝐩𝐞𝐃𝐨𝐜](https://naughty-mayer-acdfab.netlify.com/typedoc/)<br>[𝗷𝘀𝗰𝗽𝗱](https://naughty-mayer-acdfab.netlify.com/jscpd/jscpd-report.html)
 
 
@@ -14,8 +14,8 @@
 
 - [𝐓𝐲𝐩𝐞𝐃𝐨𝐜](https://naughty-mayer-acdfab.netlify.com/typedoc/)
 - [𝗷𝘀𝗰𝗽𝗱](https://naughty-mayer-acdfab.netlify.com/jscpd/jscpd-report.html)
-- [ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-template/typescript)
-- [𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-template/typescript)
+- [ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-code-factory/typescript-work-space)
+- [𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-code-factory/typescript-work-space)
 
 ---
 
@@ -59,12 +59,12 @@ npx ts-node -r tsconfig-paths/register scripts/testEnv
 ### Renovate
 
 ### Codecov
-https://github.com/baron-template/typescript/settings/secrets  
+https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
 - `CODECOV_TOKEN` 追加
 
 ### Netlify
-https://github.com/baron-template/typescript/settings/secrets  
+https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
 - `NETLIFY_AUTH_TOKEN` 追加
 - `NETLIFY_SITE_ID` 追加
