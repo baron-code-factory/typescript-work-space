@@ -9,3 +9,5 @@ languages:
     include:
       - .*\.test\.ts
       - .*\.test\.tsx
+exclude:
+  - scripts/.*

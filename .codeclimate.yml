@@ -5,6 +5,11 @@ plugins:
   markdownlint:
     enabled: true
 
+  eslint:
+    enabled: true
+    config:
+      config: .eslintrc.js
+
 exclude_patterns:
   - ".github/"                                      # Exclude GitHub issue templates
   - "scripts/"                                      # Exclude project build scripts
