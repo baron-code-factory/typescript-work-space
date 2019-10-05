@@ -2,8 +2,8 @@
 import path from 'path';
 import { Configuration, RuleSetRule } from 'webpack';
 import merge from 'webpack-merge';
-import { production } from 'configs/webpack/production';
-import { development } from 'configs/webpack/development';
+import { production } from 'webpack.prod.config';
+import { development } from 'webpack.dev.config';
 
 const processExitErrCode = 1;
 

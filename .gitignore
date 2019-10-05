@@ -90,23 +90,9 @@ typings/
 # --------------------------------
 # 追加
 # --------------------------------
-/jest.config.js
-/tsconfig.json
-/.huskyrc.js
-/.eslintrc.js
-/.eslintignore
-/tsdx.config.js
-/webpack.config.ts
-/babel.config.js
-/.jscpd.json
-/tsconfig.npm.json
-/wallaby.js
-
 /.history/
 /.rts2_cache_cjs/
 /.rts2_cache_esm/
 /dist/
 /report/
 /build
-/.czrc
-/typedoc.json

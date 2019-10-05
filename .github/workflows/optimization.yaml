@@ -17,11 +17,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: init
-        run: bash init.sh
-        env:
-          CI: true
-
       - name: npm optimization
         run: |
           npm i

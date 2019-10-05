@@ -4,14 +4,12 @@
 |:--------|:------|
 |[![Actions](https://github.com/baron-code-factory/typescript-work-space/workflows/Node%20CI/badge.svg)](https://github.com/baron-code-factory/typescript-work-space/actions?workflow=Node+CI)|[Ａｃｔｉｏｎｓ](https://github.com/baron-code-factory/typescript-work-space/actions)
 |[![License](https://img.shields.io/github/license/baron-code-factory/typescript-work-space?style=for-the-badge&logo=appveyor)](https://github.com/baron-code-factory/typescript-work-space/blob/master/LICENSE)|[ᗰIT](https://github.com/baron-code-factory/typescript-work-space/blob/master/LICENSE)
-|[![Maintainability](https://api.codeclimate.com/v1/badges/e287e6b01ca920710fbb/maintainability)](https://codeclimate.com/github/baron-code-factory/typescript-work-space/maintainability)|[𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-code-factory/typescript-work-space)
+|[![Maintainability](https://api.codeclimate.com/v1/badges/f43a6023f2def572942c/maintainability)](https://codeclimate.com/github/baron-code-factory/typescript-work-space/maintainability)|[𝘤𝘰𝘥𝘦𝘤𝘭𝘪𝘮𝘢𝘵𝘦](https://codeclimate.com/github/baron-code-factory/typescript-work-space)
 |[![GitHub](https://img.shields.io/badge/(%E3%81%A3%E2%97%94%E2%97%A1%E2%97%94)%E3%81%A3%20%E2%99%A5%20GitHub%20%E2%99%A5-%F0%9F%8D%BA%F0%9F%8D%BA%F0%9F%8D%BA-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/baronTommy)|[GιƚHυႦ](https://github.com/baronTommy)
 |[![codecov](https://codecov.io/gh/baron-code-factory/typescript-work-space/branch/master/graph/badge.svg)](https://codecov.io/gh/baron-code-factory/typescript-work-space)|[ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-code-factory/typescript-work-space)
 |[![Netlify Status](https://api.netlify.com/api/v1/badges/9ac9d26b-1886-4f56-9ae6-2fa77789c77e/deploy-status)](https://app.netlify.com/sites/naughty-mayer-acdfab/deploys)|[𝐓𝐲𝐩𝐞𝐃𝐨𝐜](https://naughty-mayer-acdfab.netlify.com/typedoc/)<br>[𝗷𝘀𝗰𝗽𝗱](https://naughty-mayer-acdfab.netlify.com/jscpd/jscpd-report.html)
 |[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space?ref=badge_small)|[𝐹𝒪𝒮𝒮𝒜](https://app.fossa.com/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space/refs/branch/master/f014046d58177db2f863661167d05e17dd64ceac/preview)|
-|[![BCH compliance](https://bettercodehub.com/edge/badge/baron-code-factory/typescript-work-space?branch=master)](https://bettercodehub.com/)|[BCH]()
-
-
+|[![BCH compliance](https://bettercodehub.com/edge/badge/baron-code-factory/typescript-work-space?branch=master)](https://bettercodehub.com/)|BCH
 
 ## Document
 
@@ -31,7 +29,6 @@
 
 ## init
 ```bash
-bash init.sh
 npm i
 ```
 

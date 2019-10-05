@@ -5,10 +5,10 @@ type Custom = {
   tags: [Tag, ...Tag[]];
 };
 
-const target = '{src,configs,scripts}';
+const target = '{src,scripts}';
 export const scripts = new Set<EnchantScriptsP<Custom>>();
 scripts.add({
-  script: ['npx eslint configs/.eslintrc.js  --fix --no-ignore'],
+  script: ['npx eslint .eslintrc.js  --fix --no-ignore'],
   ...betterOption,
   opt: {
     name: 'eslint -> .eslintrc.js',
