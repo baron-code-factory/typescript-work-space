@@ -16,7 +16,6 @@
 ## isntall
 - nodenv (anyenv)
 - direnv
-- git-secrets
 
 ---
 
