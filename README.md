@@ -122,4 +122,10 @@ function myFunc() {
 }
 ```
 
+## Support
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P4150S5)
+
+## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space?ref=badge_large)
