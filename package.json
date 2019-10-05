@@ -49,8 +49,8 @@
     "webpack-merge": "4.2.2"
   },
   "dependencies": {
-    "@slack/events-api": "^2.3.0",
-    "@slack/web-api": "^5.2.0",
+    "@slack/events-api": "2.3.0",
+    "@slack/web-api": "5.2.0",
     "enchant-script": "0.3.2"
   }
 }
