@@ -53,13 +53,17 @@ npx ts-node -r tsconfig-paths/register scripts/testEnv
 ### Codecov
 https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
-- `CODECOV_TOKEN` 追加
+- CODECOV_TOKEN
 
 ### Netlify
 https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
-- `NETLIFY_AUTH_TOKEN` 追加
-- `NETLIFY_SITE_ID` 追加
+- NETLIFY_AUTH_TOKEN
+- NETLIFY_SITE_ID
+
+### Slack
+
+- SLACK_TOKEN
 
 ---
 
