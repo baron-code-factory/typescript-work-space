@@ -31,3 +31,5 @@ jobs:
         run: npx ts-node scripts/slack
         env:
           SLACK_TOKEN: ${{secrets.SLACK_TOKEN}}
+          TEXT: 'Done'
+          CHANNEL: '#github'
