@@ -27,7 +27,7 @@ jobs:
         with:
           token: ${{secrets.CODECOV_TOKEN}}
 
-      - name: deployed
+      - name: Deployed
         run: npx ts-node scripts/slack
         env:
           SLACK_TOKEN: ${{secrets.SLACK_TOKEN}}
