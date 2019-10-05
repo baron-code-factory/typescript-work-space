@@ -8,11 +8,11 @@ type Custom = {
 const target = '{src,scripts}';
 export const scripts = new Set<EnchantScriptsP<Custom>>();
 scripts.add({
-  script: ['npx eslint .eslintrc.js  --fix --no-ignore'],
+  script: ['npx eslint ".**.{js,ts}" --fix --no-ignore'],
   ...betterOption,
   opt: {
-    name: 'eslint -> .eslintrc.js',
-    description: 'eslintを適用する -> .eslintrc.js',
+    name: 'eslint -> 設定ファイル全般',
+    description: 'eslintを適用する -> 設定ファイル全般',
     custom: {
       tags: ['optimization'],
     },

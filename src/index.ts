@@ -17,6 +17,10 @@ export * from 'src/docComment'; // import + export あわせ技
 export function main() {
   return 'I am main';
 }
+
+/**
+ * さぶちゃん
+ */
 export function sub() {
   return {
     foo: getFoo(),

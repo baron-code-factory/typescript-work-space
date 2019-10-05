@@ -112,5 +112,7 @@ module.exports = {
     'max-statements': ['error', 7],
 
     '@typescript-eslint/no-explicit-any': 2,
+
+    'require-jsdoc': 2,
   },
 };
