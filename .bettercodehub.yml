@@ -10,4 +10,4 @@ languages:
       - .*\.test\.ts
       - .*\.test\.tsx
 exclude:
-  - scripts/.*
+  - /scripts/.*
