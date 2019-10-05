@@ -1,1 +1,1 @@
-type AppName = string;
+type AppName = 'TypeScript work space';
