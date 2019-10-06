@@ -63,7 +63,7 @@ https://github.com/baron-code-factory/typescript-work-space/settings/secrets
 
 ### Slack
 
-- SLACK_TOKEN
+- SLACK_WEBHOOK_URL
 
 ---
 
