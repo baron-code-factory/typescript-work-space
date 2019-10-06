@@ -1,0 +1,16 @@
+name: "Release"
+on: push
+
+jobs:
+  release_package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: "npm ci"
+        run: npm ci
+
+      - name: "semantic-release"
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
