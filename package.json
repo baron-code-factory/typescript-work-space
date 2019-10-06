@@ -40,6 +40,7 @@
     "jscpd": "2.0.16",
     "netlify-cli": "2.15.0",
     "prettier": "1.18.2",
+    "semantic-release": "^15.13.24",
     "ts-jest": "24.1.0",
     "ts-node": "8.4.1",
     "tsconfig-paths": "3.9.0",
