@@ -36,13 +36,25 @@ jobs:
       #     SLACK_TOKEN: ${{secrets.SLACK_TOKEN}}
       #     CHANNEL: '#github'
 
+      # - name: Slack Notification
+      #   uses: homoluctus/slatify@master
+      #   if: always()
+      #   with:
+      #     type: ${{ job.status }}
+      #     job_name: '*Lint Check*'
+      #     mention: 'here'
+      #     mention_if: 'failure'
+      #     channel: '#github'
+      #     url: ${{ secrets.SLACK_WEBHOOK }}
+      
       - name: Slack Notification
-        uses: homoluctus/slatify@master
-        if: always()
+        uses: 8398a7/action-slack@v2
         with:
-          type: ${{ job.status }}
-          job_name: '*Lint Check*'
-          mention: 'here'
-          mention_if: 'failure'
+          status: ${{ job.status }}
+          author_name: Integration Test # default: 8398a7@action-slack
+          icon_emoji: ':octocat:'
           channel: '#github'
-          url: ${{ secrets.SLACK_WEBHOOK }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # required
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
+        if: always() # Pick up events even if the job fails or is canceled.
