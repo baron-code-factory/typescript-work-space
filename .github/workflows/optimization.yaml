@@ -30,31 +30,14 @@ jobs:
       - name: Upload docs to Netlify
         run: npx netlify deploy --prod --dir build/docs --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_AUTH_TOKEN}}
  
-      # - name: Deployed
-      #   run: npx ts-node scripts/slack
-      #   env:
-      #     SLACK_TOKEN: ${{secrets.SLACK_TOKEN}}
-      #     CHANNEL: '#github'
-
-      # - name: Slack Notification
-      #   uses: homoluctus/slatify@master
-      #   if: always()
-      #   with:
-      #     type: ${{ job.status }}
-      #     job_name: '*Lint Check*'
-      #     mention: 'here'
-      #     mention_if: 'failure'
-      #     channel: '#github'
-      #     url: ${{ secrets.SLACK_WEBHOOK }}
-      
       - name: Slack Notification
         uses: 8398a7/action-slack@v2
         with:
           status: ${{ job.status }}
-          author_name: Integration Test # default: 8398a7@action-slack
+          author_name: Integration Test
           icon_emoji: ':octocat:'
           channel: '#github'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # required
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
-        if: always() # Pick up events even if the job fails or is canceled.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()

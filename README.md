@@ -31,7 +31,7 @@ npm i
 
 ```bash
 # こんな感じになるか？
-npx ts-node -r tsconfig-paths/register scripts/testEnv
+npx ts-node -r tsconfig-paths/register scripts/check
 
 ┌───────────────────────────┬──────────────┐
 │          (index)          │    Values    │
@@ -39,7 +39,7 @@ npx ts-node -r tsconfig-paths/register scripts/testEnv
 │ process.env.ARE_YOU_READY │     'ok'     │
 │    echo $ARE_YOU_READY    │     'ok'     │
 │       .node-version       │  '11.10.1'   │
-│          node -v          │ 'v11.10.1\n' │
+│          node -v          │ 'v11.10.1'   │
 └───────────────────────────┴──────────────┘
 ```
 
