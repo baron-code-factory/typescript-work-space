@@ -1,6 +1,6 @@
 {
   "name": "typescript-work-space",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "repository": "https://github.com/baron-code-factory/typescript-work-space",
   "author": "baronTommy <16768208+baronTommy@users.noreply.github.com>",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "build:dev": "rm -rf dist && NODE_ENV=development webpack -r tsconfig-paths/register",
     "build:prod": "rm -rf dist && NODE_ENV=production webpack -r tsconfig-paths/register",
     "selectScript": "ts-node -r tsconfig-paths/register scripts/selectScript",
-    "tryScript": "ts-node -r tsconfig-paths/register scripts/tryScript"
+    "tryScript": "ts-node -r tsconfig-paths/register scripts/tryScript",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",
@@ -45,7 +46,7 @@
     "jscpd": "2.0.16",
     "netlify-cli": "2.15.0",
     "prettier": "1.18.2",
-    "semantic-release": "15.13.24",
+    "semantic-release": "^15.13.24",
     "ts-jest": "24.1.0",
     "ts-node": "8.4.1",
     "tsconfig-paths": "3.9.0",
