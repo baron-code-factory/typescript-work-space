@@ -30,8 +30,19 @@ jobs:
       - name: Upload docs to Netlify
         run: npx netlify deploy --prod --dir build/docs --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_AUTH_TOKEN}}
  
-      - name: Deployed
-        run: npx ts-node scripts/slack
-        env:
-          SLACK_TOKEN: ${{secrets.SLACK_TOKEN}}
-          CHANNEL: '#github'
+      # - name: Deployed
+      #   run: npx ts-node scripts/slack
+      #   env:
+      #     SLACK_TOKEN: ${{secrets.SLACK_TOKEN}}
+      #     CHANNEL: '#github'
+
+      - name: Slack Notification
+        uses: homoluctus/slatify@master
+        if: always()
+        with:
+          type: ${{ job.status }}
+          job_name: '*Lint Check*'
+          mention: 'here'
+          mention_if: 'failure'
+          channel: '#github'
+          url: ${{ secrets.SLACK_WEBHOOK }}
