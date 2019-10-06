@@ -51,5 +51,13 @@
   },
   "dependencies": {
     "enchant-script": "0.3.2"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github"
+    ]
   }
 }
