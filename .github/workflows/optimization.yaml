@@ -30,6 +30,11 @@ jobs:
       - name: Upload docs to Netlify
         run: npx netlify deploy --prod --dir build/docs --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_AUTH_TOKEN}}
 
+      - name: semantic-release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Slack Notification
         if: always()
         uses: 8398a7/action-slack@v2
