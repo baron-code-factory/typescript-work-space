@@ -1,7 +1,3 @@
-// import { promisify } from 'util';
-// import dateFormat from 'dateformat';
-// import path from 'path';
-
 // const readFileAsync = promisify(require('fs').readFile);
 
 // const template = readFileAsync(path.join('./xxx', 'default-template.hbs'));
