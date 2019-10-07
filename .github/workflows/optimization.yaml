@@ -34,8 +34,6 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CI: true
-          HUSKY_SKIP_HOOKS: 1
 
       - name: Slack Notification
         if: always()
