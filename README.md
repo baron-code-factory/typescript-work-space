@@ -9,7 +9,8 @@
 |[![codecov](https://codecov.io/gh/baron-code-factory/typescript-work-space/branch/master/graph/badge.svg)](https://codecov.io/gh/baron-code-factory/typescript-work-space)|[ᑕOᗪEᑕOᐯ](https://codecov.io/gh/baron-code-factory/typescript-work-space)
 |[![Netlify Status](https://api.netlify.com/api/v1/badges/9ac9d26b-1886-4f56-9ae6-2fa77789c77e/deploy-status)](https://app.netlify.com/sites/naughty-mayer-acdfab/deploys)|[𝐓𝐲𝐩𝐞𝐃𝐨𝐜](https://naughty-mayer-acdfab.netlify.com/typedoc/)<br>[𝗷𝘀𝗰𝗽𝗱](https://naughty-mayer-acdfab.netlify.com/jscpd/jscpd-report.html)
 |[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space?ref=badge_small)|[𝐹𝒪𝒮𝒮𝒜](https://app.fossa.com/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space/refs/branch/master/f014046d58177db2f863661167d05e17dd64ceac/preview)|
-|[![BCH compliance](https://bettercodehub.com/edge/badge/baron-code-factory/typescript-work-space?branch=master)](https://bettercodehub.com/)|[BCH](https://bettercodehub.com)
+|[![BCH compliance](https://bettercodehub.com/edge/badge/baron-code-factory/typescript-work-space?branch=master)](https://bettercodehub.com/)|[𝐁𝐞𝐭𝐭𝐞𝐫 𝐂𝐨𝐝𝐞𝐡𝐮𝐛](https://bettercodehub.com)
+|[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/baron-code-factory/typescript-work-space/releases)|[𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰-𝗿𝗲𝗹𝗲𝗮𝘀𝗲](https://github.com/baron-code-factory/typescript-work-space/releases)|
 
 ---
 
@@ -125,4 +126,3 @@ function myFunc() {
 ## License
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbaron-code-factory%2Ftypescript-work-space?ref=badge_large)
-
