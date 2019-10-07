@@ -19,7 +19,7 @@ jobs:
 
       - name: Optimization
         run: |
-          npm i
+          npm ci
           npm run tryScript optimization
 
       - name: Upload coverage to Codecov
