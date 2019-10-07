@@ -1,3 +1,9 @@
+# [v1.4.1](https://github.com/baron-code-factory/typescript-work-space/compare/v1.4.0...v1.4.1) (2019-10-07)
+
+
+
+## [1.4.1](https://github.com/baron-code-factory/typescript-work-space/compare/v1.4.0...v1.4.1) (2019-10-07)
+
 # [1.4.0](https://github.com/baron-code-factory/typescript-work-space/compare/v1.3.1...v1.4.0) (2019-10-07)
 
 
