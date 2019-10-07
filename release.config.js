@@ -5,9 +5,10 @@ const template = `{{#if compareUrl}}
 {{/if}}
 
 {{#with commits}}
+
 {{#if art}}
 ## 🎨 Improving structure / format of the .
-{{#each sparkles}}
+{{#each art}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -15,7 +16,7 @@ const template = `{{#if compareUrl}}
 
 {{#if zap}}
 ## ⚡️ Improving performance.
-{{#each sparkles}}
+{{#each zap}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -23,7 +24,7 @@ const template = `{{#if compareUrl}}
 
 {{#if fire}}
 ## 🔥 Removing  or files.
-{{#each sparkles}}
+{{#each fire}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -31,7 +32,7 @@ const template = `{{#if compareUrl}}
 
 {{#if bug}}
 ## 🐛 Fixing a bug.
-{{#each sparkles}}
+{{#each bug}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -39,7 +40,7 @@ const template = `{{#if compareUrl}}
 
 {{#if ambulance}}
 ## 🚑 Critical hotfix.
-{{#each sparkles}}
+{{#each ambulance}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -55,7 +56,7 @@ const template = `{{#if compareUrl}}
 
 {{#if pencil}}
 ## 📝 Writing docs.
-{{#each sparkles}}
+{{#each pencil}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -63,7 +64,7 @@ const template = `{{#if compareUrl}}
 
 {{#if rocket}}
 ## 🚀 Deploying stuff.
-{{#each sparkles}}
+{{#each rocket}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -71,7 +72,7 @@ const template = `{{#if compareUrl}}
 
 {{#if lipstick}}
 ## 💄 Updating the UI and style files.
-{{#each sparkles}}
+{{#each lipstick}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -79,7 +80,7 @@ const template = `{{#if compareUrl}}
 
 {{#if tada}}
 ## 🎉 Initial commit.
-{{#each sparkles}}
+{{#each tada}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -87,7 +88,7 @@ const template = `{{#if compareUrl}}
 
 {{#if white_check_mark}}
 ## ✅ Updating tests.
-{{#each sparkles}}
+{{#each white_check_mark}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -95,7 +96,7 @@ const template = `{{#if compareUrl}}
 
 {{#if lock}}
 ## 🔒 Fixing security issues.
-{{#each sparkles}}
+{{#each lock}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -103,7 +104,7 @@ const template = `{{#if compareUrl}}
 
 {{#if apple}}
 ## 🍎 Fixing something on macOS.
-{{#each sparkles}}
+{{#each apple}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -111,7 +112,7 @@ const template = `{{#if compareUrl}}
 
 {{#if penguin}}
 ## 🐧 Fixing something on Linux.
-{{#each sparkles}}
+{{#each penguin}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -119,7 +120,7 @@ const template = `{{#if compareUrl}}
 
 {{#if checkered_flag}}
 ## 🏁 Fixing something on Windows.
-{{#each sparkles}}
+{{#each checkered_flag}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -127,7 +128,7 @@ const template = `{{#if compareUrl}}
 
 {{#if robot}}
 ## 🤖 Fixing something on Android.
-{{#each sparkles}}
+{{#each robot}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -135,7 +136,7 @@ const template = `{{#if compareUrl}}
 
 {{#if green_apple}}
 ## 🍏 Fixing something on iOS.
-{{#each sparkles}}
+{{#each green_apple}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -143,7 +144,7 @@ const template = `{{#if compareUrl}}
 
 {{#if bookmark}}
 ## 🔖 Releasing / Version tags.
-{{#each sparkles}}
+{{#each bookmark}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -151,7 +152,7 @@ const template = `{{#if compareUrl}}
 
 {{#if rotating_light}}
 ## 🚨 Removing linter warnings.
-{{#each sparkles}}
+{{#each rotating_light}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -159,7 +160,7 @@ const template = `{{#if compareUrl}}
 
 {{#if construction}}
 ## 🚧 Work in progress.
-{{#each sparkles}}
+{{#each construction}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -167,7 +168,7 @@ const template = `{{#if compareUrl}}
 
 {{#if green_heart}}
 ## 💚 Fixing CI Build.
-{{#each sparkles}}
+{{#each green_heart}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -175,7 +176,7 @@ const template = `{{#if compareUrl}}
 
 {{#if arrow_down}}
 ## ⬇️ Downgrading dependencies.
-{{#each sparkles}}
+{{#each arrow_down}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -183,7 +184,7 @@ const template = `{{#if compareUrl}}
 
 {{#if arrow_up}}
 ## ⬆️ Upgrading dependencies.
-{{#each sparkles}}
+{{#each arrow_up}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -191,7 +192,7 @@ const template = `{{#if compareUrl}}
 
 {{#if pushpin}}
 ## 📌 Pinning dependencies to specific versions.
-{{#each sparkles}}
+{{#each pushpin}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -199,21 +200,21 @@ const template = `{{#if compareUrl}}
 
 {{#if construction_worker}}
 ## 👷 Adding CI build system.
-{{#each sparkles}}
+{{#each construction_worker}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if chart_with_upwards_trend}}
 ## 📈 Adding analytics or tracking code.
-{{#each sparkles}}
+{{#each chart_with_upwards_trend}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if recycle}}
 ## ♻️ Refactoring .
-{{#each sparkles}}
+{{#each recycle}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -221,7 +222,7 @@ const template = `{{#if compareUrl}}
 
 {{#if whale}}
 ## 🐳 Work about Docker.
-{{#each sparkles}}
+{{#each whale}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -229,7 +230,7 @@ const template = `{{#if compareUrl}}
 
 {{#if heavy_plus_sign}}
 ## ➕ Adding a dependency.
-{{#each sparkles}}
+{{#each heavy_plus_sign}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -237,7 +238,7 @@ const template = `{{#if compareUrl}}
 
 {{#if heavy_minus_sign}}
 ## ➖ Removing a dependency.
-{{#each sparkles}}
+{{#each heavy_minus_sign}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -245,7 +246,7 @@ const template = `{{#if compareUrl}}
 
 {{#if wrench}}
 ## 🔧 Changing configuration files.
-{{#each sparkles}}
+{{#each wrench}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -253,7 +254,7 @@ const template = `{{#if compareUrl}}
 
 {{#if globe_with_meridians}}
 ## 🌐 Internationalization and localization.
-{{#each sparkles}}
+{{#each globe_with_meridians}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -261,7 +262,7 @@ const template = `{{#if compareUrl}}
 
 {{#if pencil2}}
 ## ✏️ Fixing typos.
-{{#each sparkles}}
+{{#each pencil2}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -269,7 +270,7 @@ const template = `{{#if compareUrl}}
 
 {{#if poop}}
 ## 💩 Writing bad  that needs to be improved.
-{{#each sparkles}}
+{{#each poop}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -277,7 +278,7 @@ const template = `{{#if compareUrl}}
 
 {{#if rewind}}
 ## ⏪ Reverting changes.
-{{#each sparkles}}
+{{#each rewind}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -285,7 +286,7 @@ const template = `{{#if compareUrl}}
 
 {{#if twisted_rightwards_arrows}}
 ## 🔀 Merging branches.
-{{#each sparkles}}
+{{#each twisted_rightwards_arrows}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -293,7 +294,7 @@ const template = `{{#if compareUrl}}
 
 {{#if package}}
 ## 📦 Updating compiled files or packages.
-{{#each sparkles}}
+{{#each package}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -301,7 +302,7 @@ const template = `{{#if compareUrl}}
 
 {{#if alien}}
 ## 👽 Updating  due to external API changes.
-{{#each sparkles}}
+{{#each alien}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -309,7 +310,7 @@ const template = `{{#if compareUrl}}
 
 {{#if truck}}
 ## 🚚 Moving or renaming files.
-{{#each sparkles}}
+{{#each truck}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -317,7 +318,7 @@ const template = `{{#if compareUrl}}
 
 {{#if page_facing_up}}
 ## 📄 Adding or updating license.
-{{#each sparkles}}
+{{#each page_facing_up}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -325,7 +326,7 @@ const template = `{{#if compareUrl}}
 
 {{#if boom}}
 ## 💥 Introducing breaking changes.
-{{#each sparkles}}
+{{#each boom}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -333,7 +334,7 @@ const template = `{{#if compareUrl}}
 
 {{#if bento}}
 ## 🍱 Adding or updating assets.
-{{#each sparkles}}
+{{#each bento}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -341,7 +342,7 @@ const template = `{{#if compareUrl}}
 
 {{#if ok_hand}}
 ## 👌 Updating  due to  review changes.
-{{#each sparkles}}
+{{#each ok_hand}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -349,7 +350,7 @@ const template = `{{#if compareUrl}}
 
 {{#if wheelchair}}
 ## ♿️ Improving accessibility.
-{{#each sparkles}}
+{{#each wheelchair}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -357,7 +358,7 @@ const template = `{{#if compareUrl}}
 
 {{#if bulb}}
 ## 💡 Documenting source .
-{{#each sparkles}}
+{{#each bulb}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -365,7 +366,7 @@ const template = `{{#if compareUrl}}
 
 {{#if beers}}
 ## 🍻 Writing  drunkenly.
-{{#each sparkles}}
+{{#each beers}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -373,7 +374,7 @@ const template = `{{#if compareUrl}}
 
 {{#if speech_balloon}}
 ## 💬 Updating text and literals.
-{{#each sparkles}}
+{{#each speech_balloon}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -381,7 +382,7 @@ const template = `{{#if compareUrl}}
 
 {{#if card_file_box}}
 ## 🗃 Performing database related changes.
-{{#each sparkles}}
+{{#each card_file_box}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -389,7 +390,7 @@ const template = `{{#if compareUrl}}
 
 {{#if loud_sound}}
 ## 🔊 Adding logs.
-{{#each sparkles}}
+{{#each loud_sound}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -397,7 +398,7 @@ const template = `{{#if compareUrl}}
 
 {{#if mute}}
 ## 🔇 Removing logs.
-{{#each sparkles}}
+{{#each mute}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -405,7 +406,7 @@ const template = `{{#if compareUrl}}
 
 {{#if busts_in_silhouette}}
 ## 👥 Adding contributor(s).
-{{#each sparkles}}
+{{#each busts_in_silhouette}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -413,7 +414,7 @@ const template = `{{#if compareUrl}}
 
 {{#if children_crossing}}
 ## 🚸 Improving user experience / usability.
-{{#each sparkles}}
+{{#each children_crossing}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -421,7 +422,7 @@ const template = `{{#if compareUrl}}
 
 {{#if building_construction}}
 ## 🏗 Making architectural changes.
-{{#each sparkles}}
+{{#each building_construction}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -429,7 +430,7 @@ const template = `{{#if compareUrl}}
 
 {{#if iphone}}
 ## 📱 Working on responsive design.
-{{#each sparkles}}
+{{#each iphone}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -437,7 +438,7 @@ const template = `{{#if compareUrl}}
 
 {{#if clown_face}}
 ## 🤡 Mocking things.
-{{#each sparkles}}
+{{#each clown_face}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -445,7 +446,7 @@ const template = `{{#if compareUrl}}
 
 {{#if egg}}
 ## 🥚 Adding an easter egg.
-{{#each sparkles}}
+{{#each egg}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -453,7 +454,7 @@ const template = `{{#if compareUrl}}
 
 {{#if see_no_evil}}
 ## 🙈 Adding or updating a .gitignore file
-{{#each sparkles}}
+{{#each see_no_evil}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -461,7 +462,7 @@ const template = `{{#if compareUrl}}
 
 {{#if camera_flash}}
 ## 📸 Adding or updating snapshots
-{{#each sparkles}}
+{{#each camera_flash}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -469,7 +470,7 @@ const template = `{{#if compareUrl}}
 
 {{#if alembic}}
 ## ⚗ Experimenting new things
-{{#each sparkles}}
+{{#each alembic}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -477,7 +478,7 @@ const template = `{{#if compareUrl}}
 
 {{#if mag}}
 ## 🔍 Improving SEO
-{{#each sparkles}}
+{{#each mag}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -485,7 +486,7 @@ const template = `{{#if compareUrl}}
 
 {{#if wheel_of_dharma}}
 ## ☸️ Work about Kubernetes
-{{#each sparkles}}
+{{#each wheel_of_dharma}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
@@ -493,7 +494,7 @@ const template = `{{#if compareUrl}}
 
 {{#if label}}
 ## 🏷️ Adding or updating types (Flow, TypeScript)
-{{#each sparkles}}
+{{#each label}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
