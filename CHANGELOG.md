@@ -1,3 +1,14 @@
+## [1.3.1](https://github.com/baron-code-factory/typescript-work-space/compare/v1.3.0...v1.3.1) (2019-10-07)
+
+
+
+
+
+# [v1.3.1](https://github.com/baron-code-factory/typescript-work-space/compare/v1.3.0...v1.3.1) (2019-10-07)
+
+## 🐛 Bug Fixes
+- [`20d64b8`](https://github.com/baron-code-factory/typescript-work-space/commit/20d64b8)  (Issues: [`#19`](https://github.com/baron-code-factory/typescript-work-space/issues/19))
+
 # [1.3.0](https://github.com/baron-code-factory/typescript-work-space/compare/v1.2.0...v1.3.0) (2019-10-07)
 
 
