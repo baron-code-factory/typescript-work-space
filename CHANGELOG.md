@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="next"></a>
-## next
+<a name=""></a>
+##  (2019-10-07)
 
 ### Changed
 
@@ -29,6 +29,7 @@
 - 📝 up [[03f6044](https://github.com/baron-code-factory/typescript-work-space/commit/03f6044699f18649a37cabc21bd75d04e12f19c0)]
 -  feat(pencil): add &#x27;graphiteWidth&#x27; option [[1655347](https://github.com/baron-code-factory/typescript-work-space/commit/165534719615988b00a52f3732f361230f1c5ad2)]
 -  perf(pencil): remove graphiteWidth option [[b3fccf6](https://github.com/baron-code-factory/typescript-work-space/commit/b3fccf65336b4545e200dd7ef29860e0367a1c4d)]
+- 📝  [[ed7a3b1](https://github.com/baron-code-factory/typescript-work-space/commit/ed7a3b10905dd6590cb29ce8fe0432d3e9935f1f)]
 
 
 <a name="1.4.2"></a>

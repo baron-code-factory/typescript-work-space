@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
-    '@semantic-release/commit-analyzer',
-    '@semantic-release/release-notes-generator',
+    // '@semantic-release/commit-analyzer',
+    // '@semantic-release/release-notes-generator',
     // [
     //   '@semantic-release/commit-analyzer',
     //   {
@@ -17,6 +17,17 @@ module.exports = {
     //     },
     //   },
     // ],
+
+    [
+      'semantic-release-gitmoji',
+      {
+        releaseRules: {
+          major: [':boom:'],
+          minor: [':sparkles:'],
+          patch: [':bug:', ':ambulance:', ':lock:'],
+        },
+      },
+    ],
     '@semantic-release/github',
 
     // 'semantic-release-gitmoji',
