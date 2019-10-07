@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/baron-code-factory/typescript-work-space/compare/v1.3.1...v1.4.0) (2019-10-07)
+
+
+### Features
+
+* **pencil:** add 'hoge hoge' option ([6bbe04b](https://github.com/baron-code-factory/typescript-work-space/commit/6bbe04b))
+
+
+
+
+
+# [v1.4.0](https://github.com/baron-code-factory/typescript-work-space/compare/v1.3.1...v1.4.0) (2019-10-07)
+
 ## [1.3.1](https://github.com/baron-code-factory/typescript-work-space/compare/v1.3.0...v1.3.1) (2019-10-07)
 
 
