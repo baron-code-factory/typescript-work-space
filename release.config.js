@@ -499,8 +499,7 @@ const template = `{{#if compareUrl}}
 {{/each}}
 {{/if}}
 
-{{/with}}
-`;
+{{/with}}`;
 
 module.exports = {
   plugins: [
