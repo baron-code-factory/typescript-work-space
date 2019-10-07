@@ -55,6 +55,7 @@
     "webpack-merge": "4.2.2"
   },
   "dependencies": {
-    "enchant-script": "0.3.2"
+    "enchant-script": "0.3.2",
+    "util": "^0.12.1"
   }
 }
