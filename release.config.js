@@ -7,7 +7,13 @@ module.exports = {
         releaseRules: [{ type: ':memo:', release: 'patch' }],
       },
     ],
-    '@semantic-release/release-notes-generator',
+    // '@semantic-release/release-notes-generator',
+    [
+      'semantic-release/release-notes-generator',
+      {
+        preset: 'atom',
+      },
+    ],
     '@semantic-release/github',
   ],
 };
