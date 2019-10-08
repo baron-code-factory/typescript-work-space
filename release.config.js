@@ -3,7 +3,7 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
-        preset: 'atom',
+        preset: 'gitmoji',
         releaseRules: [{ type: ':memo:', release: 'patch' }],
       },
     ],
@@ -11,7 +11,7 @@ module.exports = {
     [
       '@semantic-release/release-notes-generator',
       {
-        preset: 'atom',
+        preset: 'gitmoji',
       },
     ],
     '@semantic-release/github',
