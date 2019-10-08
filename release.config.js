@@ -3,12 +3,12 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
-        preset: 'gitmoji',
+        preset: 'atom',
         releaseRules: [{ type: ':memo:', release: 'patch' }],
       },
     ],
     '@semantic-release/release-notes-generator',
-    '@semantic-release/github',
+    // '@semantic-release/github',
   ],
 };
 // config: '@dior/conventional-changelog-gitmoji',
