@@ -9,7 +9,7 @@ module.exports = {
     ],
     // '@semantic-release/release-notes-generator',
     [
-      'semantic-release/release-notes-generator',
+      '@semantic-release/release-notes-generator',
       {
         preset: 'atom',
       },
