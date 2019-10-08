@@ -4,10 +4,10 @@ module.exports = {
       '@semantic-release/commit-analyzer',
       {
         preset: 'gitmoji',
-        releaseRules: [
-          { type: ':memo:', release: 'patch' },
-          { type: ':lipstick:', release: 'patch' },
-        ],
+        // releaseRules: [
+        //   { type: ':memo:', release: 'patch' },
+        //   { type: ':lipstick:', release: 'patch' },
+        // ],
       },
     ],
     // '@semantic-release/release-notes-generator',
