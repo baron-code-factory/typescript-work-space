@@ -3,7 +3,7 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
-        preset: '@dior/conventional-changelog-gitmoji',
+        preset: 'gitmoji',
         // releaseRules: [{ type: ':memo:', release: 'patch' }],
       },
     ],
