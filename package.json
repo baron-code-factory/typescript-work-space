@@ -47,6 +47,8 @@
     "ts-node": "8.4.1",
     "tsconfig-paths": "3.9.0",
     "typedoc": "0.15.0",
+    "typedoc-plugin-mermaid": "^1.1.0",
+    "typedoc-plugin-nomnoml": "0.0.1",
     "typescript": "3.6.3",
     "webpack": "4.41.0",
     "webpack-cli": "3.3.9",
