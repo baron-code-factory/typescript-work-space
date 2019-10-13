@@ -6,6 +6,21 @@ const template = `{{#if compareUrl}}
 
 
 {{#with commits}}
+
+{{#if boom}}
+## 💥 Introducing breaking changes.
+{{#each boom}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if sparkles}}
+## ✨ Introducing new features.
+{{#each sparkles}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
 {{#if art}}
 ## 🎨 Improving structure / format of the .
 {{#each art}}
@@ -36,12 +51,7 @@ const template = `{{#if compareUrl}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
-{{#if sparkles}}
-## ✨ Introducing new features.
-{{#each sparkles}}
-- {{> commitTemplate}}
-{{/each}}
-{{/if}}
+
 {{#if pencil}}
 ## 📝 Writing docs.
 {{#each pencil}}
@@ -246,12 +256,7 @@ const template = `{{#if compareUrl}}
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
-{{#if boom}}
-## 💥 Introducing breaking changes.
-{{#each boom}}
-- {{> commitTemplate}}
-{{/each}}
-{{/if}}
+
 {{#if bento}}
 ## 🍱 Adding or updating assets.
 {{#each bento}}
@@ -386,14 +391,13 @@ module.exports = {
       'semantic-release-gitmoji',
       {
         releaseRules: {
-          major: [],
-          minor: [],
+          major: [':boom:'],
+          minor: [':sparkles:'],
           patch: [
             ':art:',
             ':zap:',
             ':fire:',
             ':bug:',
-            ':sparkles:',
             ':pencil:',
             ':rocket:',
             ':lipstick:',
@@ -426,7 +430,6 @@ module.exports = {
             ':alien:',
             ':truck:',
             ':page_facing_up:',
-            ':boom:',
             ':bento:',
             ':ok_hand:',
             ':loud_sound:',
