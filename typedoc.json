@@ -1,0 +1,6 @@
+{
+    "out": "build/docs/typedoc",
+    "exclude": "**/*+(.test|.spec|.e2e).ts",
+    "includeDeclarations": true,
+    "excludeExternals": true
+}
