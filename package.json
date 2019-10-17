@@ -52,5 +52,13 @@
   },
   "dependencies": {
     "enchant-script": "0.3.2"
+  },
+  "config": {
+    "cz-emoji": {
+      "scopes": [
+        "front",
+        "server"
+      ]
+    }
   }
 }
