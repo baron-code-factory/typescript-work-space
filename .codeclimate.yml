@@ -1,8 +1,10 @@
 version: "2"
 
-plugins:
+engines:
   eslint:
-    enabled: false
+    enabled: true
+    config:
+      config: .eslintrc.js
 
 exclude_patterns:
   - ".github/"
