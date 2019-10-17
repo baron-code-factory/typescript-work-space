@@ -22,16 +22,18 @@ jobs:
           npm i
           npm run tryScript optimization
 
+# masterにマージした時のみ
+######################################################
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1.0.2
         with:
           token: ${{secrets.CODECOV_TOKEN}}
 
-      - name: Semantic release
-        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      # - name: Semantic release
+      #   run: npx semantic-release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+######################################################
       - name: Slack Notification
         if: always()
         uses: 8398a7/action-slack@v2
