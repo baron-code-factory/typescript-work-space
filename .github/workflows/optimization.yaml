@@ -27,8 +27,8 @@ jobs:
         with:
           token: ${{secrets.CODECOV_TOKEN}}
 
-      - name: Upload docs to Netlify
-        run: npx netlify deploy --prod --dir build/docs --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_AUTH_TOKEN}}
+      # - name: Upload docs to Netlify
+        # run: npx netlify deploy --prod --dir build/docs --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_AUTH_TOKEN}}
 
       - name: Semantic release
         run: npx semantic-release
