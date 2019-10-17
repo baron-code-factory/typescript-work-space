@@ -2,10 +2,7 @@ version: "2"
 
 plugins:
   eslint:
-    enabled: true
-    channel: "eslint-6"
-    config:
-      config: .eslintrc.js
+    enabled: false
 
 exclude_patterns:
   - ".github/"
