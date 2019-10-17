@@ -1,6 +1,3 @@
-test
-
-
 # TypeScript work space
 
 |  ᗷ𝐚ᗪgε | 𝒮𝑒𝓇𝓋𝒾𝒸𝑒 |
@@ -51,24 +48,23 @@ npx ts-node -r tsconfig-paths/register scripts/check
 ---
 
 ## アカウント作成 や 連携
+
 ### Codeclimate
+Codeclimate にて設定
 
 ### Renovate
-
-### Codecov
-https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
-
-- CODECOV_TOKEN
+Renovate にて設定
 
 ### Netlify
+Netlify にて設定
+
+### Codecov
+CODECOV_TOKEN を 下記に登録
 https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
-- NETLIFY_AUTH_TOKEN
-- NETLIFY_SITE_ID
-
 ### Slack
-
-- SLACK_WEBHOOK_URL
+SLACK_WEBHOOK_URL を 下記に登録
+https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
 ---
 ## 開発の方針
