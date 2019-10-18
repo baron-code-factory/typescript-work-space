@@ -1,4 +1,3 @@
-
 version: "2"
 
 plugins:
@@ -19,3 +18,4 @@ exclude_patterns:
   - "**/*.d.ts"
   - "**/*.spec.ts"
   - "**/*.integ.ts"
+

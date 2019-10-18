@@ -68,18 +68,6 @@ https://github.com/baron-code-factory/typescript-work-space/settings/secrets
 
 ---
 ## 開発の方針
-関数は 可能であれば function  
-理由は typedoc で出力した際にわかりやすいから  
-```ts
-// A
-const myFunc = () => 'my Naem'
-
-// B
-function myFunc() {
-    return 'my Naem'
-}
-```
-
 todo や isssue 管理  
 https://github.com/JasonEtco/todo
 ```ts
