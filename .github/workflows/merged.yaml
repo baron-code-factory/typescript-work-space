@@ -13,4 +13,7 @@ jobs:
     - name: Pull request merged
       if: github.event.pull_request.merged == true
       run: echo merged!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      run: : echo ${{ github.ref }}
+
+    - name: I am master
+      if: contains(github.ref, 'master')
+      run: echo master
