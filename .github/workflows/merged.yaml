@@ -1,3 +1,6 @@
+# これは？
+# mergedされたら発火 する サンプル
+
 name: merged
 on:
   pull_request:
