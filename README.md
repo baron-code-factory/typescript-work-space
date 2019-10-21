@@ -1,4 +1,4 @@
-# TypeScript work space
+# TypeScript work space :octocat:
 
 |  ᗷ𝐚ᗪgε | 𝒮𝑒𝓇𝓋𝒾𝒸𝑒 |
 |:--------|:------|
