@@ -10,10 +10,6 @@
   "major": {
     "automerge": false
   },
-
-  // プルリク対象ブランチ
-  "baseBranches": ["next"],
-
   "lockFileMaintenance": {
     "enabled": true,
   }
