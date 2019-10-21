@@ -1,0 +1,13 @@
+component_depth: 2
+languages:
+- name: typescript
+  production:
+    exclude:
+      - .*\.test\.ts
+      - .*\.test\.tsx
+  test:
+    include:
+      - .*\.test\.ts
+      - .*\.test\.tsx
+exclude:
+  - /scripts/.*
