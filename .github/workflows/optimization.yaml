@@ -30,8 +30,8 @@ jobs:
 
       # リリース処理
       - name: Semantic release
-        # branch が master の時に発火
-        if: contains(github.ref, 'master')
+        # branch が release の時に発火
+        if: contains(github.ref, 'release')
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
