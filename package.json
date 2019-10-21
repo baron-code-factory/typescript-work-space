@@ -14,13 +14,13 @@
     "@babel/core": "7.6.4",
     "@babel/preset-env": "7.6.3",
     "@babel/preset-typescript": "7.6.0",
-    "@semantic-release/github": "5.5.3",
+    "@semantic-release/github": "5.5.4",
     "@types/cli-spinners": "1.3.0",
     "@types/jest": "24.0.18",
-    "@types/node": "12.7.12",
+    "@types/node": "12.11.1",
     "@types/webpack-merge": "4.1.5",
-    "@typescript-eslint/eslint-plugin": "2.3.3",
-    "@typescript-eslint/parser": "2.3.3",
+    "@typescript-eslint/eslint-plugin": "2.4.0",
+    "@typescript-eslint/parser": "2.4.0",
     "babel-loader": "8.0.6",
     "babel-plugin-module-resolver": "3.2.0",
     "commitizen": "4.0.3",
@@ -39,7 +39,7 @@
     "jest": "24.9.0",
     "jscpd": "2.0.16",
     "prettier": "1.18.2",
-    "semantic-release": "15.13.24",
+    "semantic-release": "15.13.27",
     "semantic-release-gitmoji": "1.3.2",
     "ts-jest": "24.1.0",
     "ts-node": "8.4.1",
@@ -52,5 +52,13 @@
   },
   "dependencies": {
     "enchant-script": "0.3.2"
+  },
+  "config": {
+    "cz-emoji": {
+      "scopes": [
+        "front",
+        "server"
+      ]
+    }
   }
 }
