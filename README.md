@@ -13,8 +13,6 @@
 |[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/baron-code-factory/typescript-work-space/releases)|[𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰-𝗿𝗲𝗹𝗲𝗮𝘀𝗲](https://github.com/baron-code-factory/typescript-work-space/releases)|
 |[![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.carloscuesta.me/)|[Gitmoji](https://gitmoji.carloscuesta.me)|
 
-~~~~~~~~~~~~~~~~~~~~~~~
-
 ---
 
 ## isntall
@@ -61,11 +59,11 @@ Renovate にて設定
 Netlify にて設定
 
 ### Codecov
-CODECOV_TOKEN を 下記に登録
+CODECOV_TOKEN を 下記に登録  
 https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
 ### Slack
-SLACK_WEBHOOK_URL を 下記に登録
+SLACK_WEBHOOK_URL を 下記に登録  
 https://github.com/baron-code-factory/typescript-work-space/settings/secrets  
 
 ---
