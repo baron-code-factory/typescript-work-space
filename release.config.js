@@ -491,6 +491,9 @@ const releaseRules = {
 };
 
 module.exports = {
+  // リリース対象ブランチを変更
+  branch: 'release',
+
   plugins: [
     [
       'semantic-release-gitmoji',
