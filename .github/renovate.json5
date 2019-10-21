@@ -5,11 +5,16 @@
   "timezone": "Asia/Tokyo",
   "schedule": ["every weekend"],
   "labels": ["renovate"],
-  "patch": { "automerge": true },
+  
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+
+  // プルリク対象ブランチ
+  "baseBranches": ["next"],
+
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": [
-      "before 3am on the first day of the month"
-    ]
   }
 }
