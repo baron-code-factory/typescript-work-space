@@ -68,7 +68,7 @@ https://github.com/baron-code-factory/typescript-work-space/settings/secrets
 
 ---
 ## 開発の方針
-todo や isssue 管理  
+### todo や isssue 管理  
 https://github.com/JasonEtco/todo
 ```ts
 /**
@@ -80,6 +80,15 @@ function ruleOverPunyHumans (p: string) {
 }
 ```
 
+### コードのフローなど
+codecrumbs で頑張る
+```bash
+npx codecrumbs
+```
+
+↓  
+
+http://localhost:2018
 ---
 
 ## ビルドなど
