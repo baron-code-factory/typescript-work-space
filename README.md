@@ -83,6 +83,8 @@ function ruleOverPunyHumans (p: string) {
 ### コードのフローなど
 codecrumbs で頑張る
 ```bash
+# TODO 現状はローカルでしか確認できない
+# BODY dockerとか出れば...
 npx codecrumbs
 ```
 
