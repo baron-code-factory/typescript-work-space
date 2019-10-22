@@ -22,10 +22,16 @@ export function main() {
  * さぶちゃん
  */
 export function sub() {
+  // cc:sub#0;start;開始
+  const foo = getFoo();
+  const baseName = getBaseName();
+  const bar = getBar();
+
+  // cc:sub#9;end;おしまい
   return {
-    foo: getFoo(),
-    bar: getBar(),
-    baseName: getBaseName(),
+    foo,
+    baseName,
+    bar,
   };
 }
 
