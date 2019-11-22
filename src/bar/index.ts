@@ -10,6 +10,6 @@
  * @returns string
  */
 export function getBar() {
-  // cc:sub#20;Barを取得;Barってよく出るね
+  // cc:subの処理で色々値を返すまで#20;Barを取得;Barってよく出るね
   return 'Bar';
 }

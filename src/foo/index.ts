@@ -6,6 +6,6 @@
  * ```
  */
 export function getFoo() {
-  // cc:sub#10;Fooを取得;ただの文字列Fooを返す大げさなメソッドです
+  // cc:subの処理で色々値を返すまで#10;Fooを取得;ただの文字列Fooを返す大げさなメソッドです
   return 'Foo';
 }

@@ -55,6 +55,7 @@ export class Bar implements Foo {}
  * @param text
  */
 export function doSomething<T>(target: T, text: string): string {
+  // cc:stringだったら嬉しいな
   if (typeof target === 'string') {
     return `${target}${text}`;
   }
@@ -72,6 +73,7 @@ export function doSomething<T>(target: T, text: string): string {
  */
 export function doSomething2<T>(target: T, text: string): string {
   if (typeof target === 'string') {
+    // cc:あれ系の処理#0;つまりここは大事
     return `${target}${text}`;
   }
   return text;
