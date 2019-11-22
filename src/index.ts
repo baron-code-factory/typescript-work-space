@@ -22,12 +22,12 @@ export function main() {
  * さぶちゃん
  */
 export function sub() {
-  // cc:sub#0;start;開始
+  // cc:sub#0;;ここがsub処理の開始地点
   const foo = getFoo();
   const baseName = getBaseName();
   const bar = getBar();
 
-  // cc:sub#9;end;おしまい
+  // cc:sub#100;;苦労して集めた戻り値達を一気に返します
   return {
     foo,
     baseName,

@@ -3,6 +3,6 @@ import path from 'path';
  * baseneme 取得する
  */
 export function getBaseName() {
-  // cc:sub#2;経由する;`basename('')する`意味は無いが
+  // cc:sub#30;念の為basenameを取得;`basename('')する`意味は無いが...
   return path.basename('');
 }

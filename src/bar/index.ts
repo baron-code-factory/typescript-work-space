@@ -1,4 +1,3 @@
-// cc:crumbs パンクズリスト用 Bar;Barを返すだけです
 /**
  * Bar を 取得
  *
@@ -11,6 +10,6 @@
  * @returns string
  */
 export function getBar() {
-  // cc:sub#3;文字列を取得する;Barってよく出るね
+  // cc:sub#20;Barを取得;Barってよく出るね
   return 'Bar';
 }
