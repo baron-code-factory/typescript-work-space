@@ -36,7 +36,7 @@
     "eslint-plugin-jest": "23.20.0",
     "eslint-plugin-json": "2.1.2",
     "eslint-plugin-prettier": "3.1.4",
-    "husky": "3.1.0",
+    "husky": "4.3.8",
     "jest": "24.9.0",
     "jscpd": "2.0.16",
     "prettier": "1.19.1",
