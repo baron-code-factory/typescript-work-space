@@ -24,7 +24,7 @@
     "babel-loader": "8.2.2",
     "babel-plugin-module-resolver": "3.2.0",
     "codecrumbs": "1.7.3",
-    "commitizen": "4.2.1",
+    "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "cz-emoji": "1.2.2",
     "dateformat": "3.0.3",
